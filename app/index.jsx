@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Dinhospics from '../assets/dinho.jpg'
+import { Link } from 'expo-router'
 
 const Home = () => {
   return (
@@ -14,6 +15,9 @@ const Home = () => {
       <View>
         <Text style={styles.card}>barcelona</Text>
       </View>
+
+      <Link href="/about" style={styles.link}>about</Link>
+      <Link href="/contact" style={styles.link}>contact me</Link>
 
       {/* <button>hello</button> */}
 
@@ -48,5 +52,9 @@ const styles = StyleSheet.create({
   },
   img: {
     marginVertical: 20,
+  },
+  link: {
+    marginVertical: 10,
+    borderBottomWidth: 1
   }
 })
