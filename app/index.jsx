@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     fontSize: 10,
     fontWeight: 'bold',
+    color: 'white',
   },
   img: {
     marginVertical: 20,
