@@ -4,13 +4,15 @@ import Dinhospics from '../assets/dinho.jpg'
 import { Link } from 'expo-router'
 
 // import themeview components
-import Themeview from '../components/Themeview'
+import Themeview from '../Components/Themeview'
+import Themelogo from '../Components/Themelogo'
 
 const Home = () => {
   return (
     <Themeview style={styles.container}> 
 
-      <Image source={Dinhospics} style={styles.img}/>
+      {/* <Image source={Dinhospics} style={styles.img}/> */}
+      <Themelogo  style={styles.img}/>
 
       <Text style={styles.title}>home lab tech</Text>
       <Text style={{marginTop: 10, marginBottom: 30}}>Home for all more</Text>
