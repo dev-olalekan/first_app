@@ -3,9 +3,12 @@ import React from 'react'
 import Dinhospics from '../assets/dinho.jpg'
 import { Link } from 'expo-router'
 
+// import themeview components
+import Themeview from '../components/Themeview'
+
 const Home = () => {
   return (
-    <View style={styles.container}> 
+    <Themeview style={styles.container}> 
 
       <Image source={Dinhospics} style={styles.img}/>
 
@@ -21,7 +24,7 @@ const Home = () => {
 
       {/* <button>hello</button> */}
 
-    </View>
+    </Themeview>
 
     
   )

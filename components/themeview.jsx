@@ -8,9 +8,9 @@ const themeview = ({style, ...props}) => {
   return (
     <View style={[{
         backgroundColor: theme.background
-    }, style]} {...props}>
+    }, style]} {...props} />
      
-    </View>
+    
   )
 }
 
