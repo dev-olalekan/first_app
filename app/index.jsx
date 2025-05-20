@@ -22,7 +22,7 @@ const Home = () => {
       </View>
 
       <Link href="/about" style={styles.link}>about</Link>
-      <Link href="/contact" style={styles.link}>contact me</Link>
+      <Link href="/contact" style={styles.link}>contact </Link>
 
       {/* <button>hello</button> */}
 
