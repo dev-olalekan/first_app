@@ -6,6 +6,7 @@ import { Link } from 'expo-router'
 // import themeview components
 import Themeview from '../Components/Themeview'
 import Themelogo from '../Components/Themelogo'
+import Spacer from '../Components/Spacer'
 
 const Home = () => {
   return (
@@ -15,7 +16,13 @@ const Home = () => {
       <Themelogo  style={styles.img}/>
 
       <Text style={styles.title}>home lab tech</Text>
+      
       <Text style={{marginTop: 10, marginBottom: 30}}>Home for all more</Text>
+
+
+      {/* the spacer has be style as a componet */}
+      <Spacer height={20} />    
+      <Text>Home for all more</Text>
 
       <View>
         <Text style={styles.card}>barcelona</Text>
