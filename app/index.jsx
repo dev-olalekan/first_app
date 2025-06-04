@@ -7,6 +7,7 @@ import { Link } from 'expo-router'
 import Themeview from '../Components/Themeview'
 import Themelogo from '../Components/Themelogo'
 import Spacer from '../Components/Spacer'
+import Themedtext from '../Components/Themedtext'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Themelogo  style={styles.img}/>
 
       <Text style={styles.title}>home lab tech</Text>
+      <Themedtext style={styles.title}>home lab tech the</Themedtext> 
       
       <Text style={{marginTop: 10, marginBottom: 30}}>Home for all more</Text>
 
