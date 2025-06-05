@@ -17,7 +17,7 @@ const Home = () => {
       <Themelogo  style={styles.img}/>
 
       <Text style={styles.title}>home lab tech</Text>
-      <Themedtext style={styles.title}>home lab tech the</Themedtext> 
+      <Themedtext style={styles.title} title={true}>home lab tech the</Themedtext> 
       
       <Text style={{marginTop: 10, marginBottom: 30}}>Home for all more</Text>
 
@@ -32,6 +32,10 @@ const Home = () => {
 
       <Link href="/about" style={styles.link}>about</Link>
       <Link href="/contact" style={styles.link}>contact </Link>
+      <Themedtext>
+         <Link href="/contact" style={styles.link}>contacts </Link>
+      </Themedtext>
+      
 
       {/* <button>hello</button> */}
 

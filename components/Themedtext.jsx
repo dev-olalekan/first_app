@@ -8,7 +8,7 @@ const Themedtext = ({style, title = false, ...props}) => {
     const colorscheme = useColorScheme()
     const theme = Colors[colorscheme] ?? Colors.light
 
-    const textColor = title ? theme.title : theme.Text
+    const textColor = title ? theme.title : theme.text
 
   return (
     
